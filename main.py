@@ -51,6 +51,6 @@ def encrypt():
 @app.route("/")
 def index():
     content = form
-    return form.format()
+    return form.format("")
 
 app.run()
